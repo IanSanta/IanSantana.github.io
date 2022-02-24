@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+   margin:0px;
+   padding: 0px;
+}
+
+body{
+background-color: antiquewhite;
+}
+
+header{
+    margin-top: 50px;
+    font-style: oblique;
+    color: rgb(219, 137, 36);
+}
+h3{
+    text-align: center;
+}
+.primera_linea{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.div_izquierda{
+    display: flex;
+    width: 50%;
+}
+
+.tabla{
+    width: 50%;
+    background-color: rgb(68, 63, 63);
+}
+
+.tabla > table{
+    width: 100%;
+}
+
+.insular{
+    width: 50%;
+}
+
+.mapa1{
+    width: 50%;
+}
+
+
+
+
+
+.div_derecha{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+
+.juan{
+    width: 50%;
+}
+.roman{
+    width: 50%;
+}
+
+.simon{
+    width: 50%;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.vertical{
+    display: block;
+}
+
+.segunda_linea{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ultima_linea{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.dias{
+    color: white;
+    border-color: black;
+    background-color: rgba(128, 128, 128, 0.534);
+}
+
+.horas{
+    color: rgb(1, 107, 1);
+    background-color: rgb(178, 238, 186);
+    border-color: black;
+}
+.verde_oscuro{
+    background-color: green;
+}
+
+.morado_flojo{
+    background-color: rgb(168, 142, 192);
+}
+
+.verde_flojo{
+    background-color: rgb(119, 226, 119);
+}
+
+.azul_claro{
+    background-color: rgba(76, 76, 218, 0.288);
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.rosa{
+    background-color: rgba(241, 107, 196, 0.774);
+}
+
+.amarillo_fuerte{
+    background-color: rgba(231, 186, 38, 0.781);
+}
+
+.verde_bosque{
+    background-color: rgba(72, 141, 8, 0.836);
+}
+
+.gris_fuerte{
+    background-color: gray
+}
+
+.gris_flojo{
+    background-color: rgba(216, 16, 16, 0.527);
+}
+
+.marron_raro{
+    background-color: rgba(135, 151, 61, 0.788);
+}
+
+.carne{
+    background-color: rgba(202, 166, 113, 0.418);
+}
+
+td{
+    text-align: center;
+    background-color: rgb(68, 63, 63);
+}
+
+.naranja{
+    background-color: rgb(255, 123, 0);
+}
+
+.magenta{
+    background-color: rgba(243, 112, 151, 0.801);
+}

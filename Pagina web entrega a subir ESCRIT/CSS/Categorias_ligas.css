@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(185, 214, 130);
+}
+
+.big_div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: white;
+    margin-top: 5%;  
+}
+
+img{
+    width: 20%;
+    height: 70%;
+}
+
+.SM2{
+    width: 40%;
+    height: 40%;
+}
+
+.masculino{
+    text-align: center;
+}
+
+.femenino{
+    text-align: center;
+}
+
+.div_masculino{
+    margin-top: 10%;
+}
+
+.div_femenino{
+    margin-top: 10%;
+}

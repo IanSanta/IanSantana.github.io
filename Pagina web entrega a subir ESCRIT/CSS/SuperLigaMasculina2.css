@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(228, 60, 60, 0.801);
+}
+.big_div{
+    padding: 20px 50px;
+}
+
+.video1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    visibility: visible;
+}
+
+.video2{
+    position: absolute;
+    left: 0;
+    bottom: -1300px;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    visibility: visible;
+}
+
+.izquierda{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.izquierda_medio{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
